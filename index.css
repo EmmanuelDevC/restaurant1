@@ -137,6 +137,8 @@ header {
     padding: 100px;
 }
 
+
+
 .card {
     font-weight: 500;
     transition: all .4s;
@@ -167,14 +169,14 @@ header {
     position: relative;
     top: -20px;
     height: 230px;
-    width: 150px;
+    width: 170px;
     border-radius: 100px;
 }
 
 .img-container img {
     position: absolute;
     height: 230px;
-    width: 150px;
+    width: 170px;
     border-radius: 100px;
     left: 12px;
     top: 12px;
@@ -188,7 +190,12 @@ header {
     justify-content: center;
 }
 
-.center2 h4, p {
+.center:hover {
+    border: 1px solid #fa9929;
+    transform: scale(1.1);
+}
+
+.center2 h4 {
     font-weight: 600;
 }
 
@@ -196,7 +203,42 @@ header {
     color: rgb(129, 128, 128);
 }
 
+.form {
+    background-color: black;
+    border-radius: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.reserve {
+    background: linear-gradient(white, #f58d1780, white);
+}
+
+.form input {
+    padding: 12px;
+}
+
+.form-select {
+    padding: 12px;
+}
+
+.btn2 {
+    color: #fff;
+    font-weight: 500;
+    padding: 14px 30px;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+
+
+.btn2:hover {
+    border-color: #d37810;
+    background-color: #ca7310;
+    color: #fff;
+}
 
 @media screen and (max-width:400px) {
     
@@ -228,6 +270,10 @@ header {
         padding: 0;
         margin-top: 100px;
         text-align: center;
+    }
+
+    .p-second {
+        display: none;
     }
 
     .about img {

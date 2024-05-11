@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 
     <title>Restaurant site</title>
@@ -44,7 +45,7 @@
                             <a class="nav-link text-secondary" aria-current="page" href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-secondary" aria-current="page" href="#">Reservation</a>
+                            <a class="nav-link text-secondary" aria-current="page" href="#reserve">Reservation</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-secondary" aria-current="page" href="#">Blog</a>
@@ -105,18 +106,19 @@
     <section class="about" id="about">
         <div class="container mb-5">
             <div class="row align-item-center justify-content-center ">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right" data-aos-duration="1500">
                     <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         class="img-fluid">
                 </div>
-                <div class="col-md-5 " style="margin-top: 100px;">
+                <div class="col-md-5" data-aos="fade-left" data-aos-duration="1500" style="margin-top: 100px;">
                     <h1 class="fw-bold">About Us</h1>
                     <div class="mt-4 mb-4 line"></div>
                     <p class="pb-2 text-secondary" style="font-size: 17px; font-weight: 600;">Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Blanditiis temporibus
                         corporis, voluptas mollitia rerum enim dolorum esse aliquid. Saepe facere harum, dolorem itaque
                         blanditiis ducimus et velit similique quae dolorum?</p>
-                    <p class="pb-2 text-secondary" style="font-size: 17px; font-weight: 600;"> Lorem ipsum dolor sit,
+                    <p class="pb-2 text-secondary p-second" style="font-size: 17px; font-weight: 600;"> Lorem ipsum
+                        dolor sit,
                         amet consectetur adipisicing elit. Voluptate hic aliquam non nisi, sunt
                         odit magni alias ut quasi veritatis saepe eaque veniam praesentium. Ab necessitatibus voluptate
                         laboriosam. Voluptatem, accusamus?</p>
@@ -157,7 +159,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg"
                                 src="https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8fDA%3D"
@@ -172,7 +174,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg"
                                 src="https://images.unsplash.com/photo-1539735257177-0d3949225f96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhdGUlMjBvZiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
@@ -187,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg"
                                 src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGxhdGUlMjBvZiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
@@ -202,7 +204,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg"
                                 src="https://images.unsplash.com/photo-1540432797114-187727adf19b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGxhdGUlMjBvZiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
@@ -219,7 +221,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 ">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food6.avif" class="img-fluid">
                             <div class="card-body">
@@ -232,7 +234,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="foo2.avif" class="img-fluid">
                             <div class="card-body">
@@ -245,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food7.avif" class="img-fluid">
                             <div class="card-body">
@@ -258,7 +260,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food9.avif" class="img-fluid">
                             <div class="card-body">
@@ -278,7 +280,7 @@
                 tabindex="0">
 
                 <div class="row">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food3.avif" class="img-fluid">
                             <div class="card-body">
@@ -291,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="foo2.avif" class="img-fluid">
                             <div class="card-body">
@@ -304,7 +306,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food1.avif" class="img-fluid">
                             <div class="card-body">
@@ -317,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food10.avif" class="img-fluid">
                             <div class="card-body">
@@ -332,7 +334,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 ">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food9.avif" class="img-fluid">
                             <div class="card-body">
@@ -345,7 +347,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food7.avif" class="img-fluid">
                             <div class="card-body">
@@ -358,7 +360,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food6.avif" class="img-fluid">
                             <div class="card-body">
@@ -371,7 +373,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food1.avif" class="img-fluid">
                             <div class="card-body">
@@ -392,7 +394,7 @@
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
                 tabindex="0">
                 <div class="row">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food1.avif" class="img-fluid">
                             <div class="card-body">
@@ -405,7 +407,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="foo2.avif" class="img-fluid">
                             <div class="card-body">
@@ -418,7 +420,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food3.avif" class="img-fluid">
                             <div class="card-body">
@@ -431,7 +433,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food4.avif" class="img-fluid">
                             <div class="card-body">
@@ -446,7 +448,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 ">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food7.avif" class="img-fluid">
                             <div class="card-body">
@@ -459,7 +461,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food1.avif" class="img-fluid">
                             <div class="card-body">
@@ -472,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food6.avif" class="img-fluid">
                             <div class="card-body">
@@ -485,7 +487,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food4.avif" class="img-fluid">
                             <div class="card-body">
@@ -505,7 +507,7 @@
 
             <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="foo2.avif" class="img-fluid">
                             <div class="card-body">
@@ -518,7 +520,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg"
                                 src="https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8fDA%3D"
@@ -533,7 +535,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food10.avif" class="img-fluid">
                             <div class="card-body">
@@ -546,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food3.avif" class="img-fluid">
                             <div class="card-body">
@@ -561,7 +563,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 ">
-                    <div class="col-md-3 py-4 ">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card  ">
                             <img class="meg" src="food4.avif" class="img-fluid">
                             <div class="card-body">
@@ -574,7 +576,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food6.avif" class="img-fluid">
                             <div class="card-body">
@@ -587,7 +589,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food7.avif" class="img-fluid">
                             <div class="card-body">
@@ -600,7 +602,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 py-4">
+                    <div class="col-md-3 py-4" data-aos="flip-left" data-aos-duration="1100">
                         <div class="card ">
                             <img class="meg" src="food9.avif" class="img-fluid">
                             <div class="card-body">
@@ -627,11 +629,11 @@
                 Earum, blanditiis.nn
             </p>
 
-            <div class="row py-5 align-item-center justify-content-center">
-                <div class="col-md-3 py-3 ">
+            <div class="row py-5 my-2 align-item-center justify-content-center">
+                <div class="col-md-3 py-3" data-aos="fade-up" data-aos-duration="100">
                     <div class="card text-center  center">
                         <div class="img-container">
-                            <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNoZWZ8ZW58MHx8MHx8fDA%3D"
                                 class="img-fluid">
                         </div>
                         <div class="card-body center2">
@@ -640,10 +642,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 py-3 ">
+                <div class="col-md-3 py-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card text-center  center">
                         <div class="img-container">
-                            <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNoZWZ8ZW58MHx8MHx8fDA%3D"
                                 class="img-fluid">
                         </div>
                         <div class="card-body center2">
@@ -652,10 +654,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 py-3 ">
+                <div class="col-md-3 py-3" data-aos="fade-up" data-aos-duration="2200">
                     <div class="card text-center  center">
                         <div class="img-container">
-                            <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            <img src="https://media.istockphoto.com/id/182027548/photo/portrait-of-a-chef.webp?b=1&s=170667a&w=0&k=20&c=DU3WEz5477_d2JsPgJJMmBf7_USNb1aPIU4UCJviRc8="
                                 class="img-fluid">
                         </div>
                         <div class="card-body center2">
@@ -664,10 +666,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 py-3 ">
+                <div class="col-md-3 py-3" data-aos="fade-up" data-aos-duration="2200">
                     <div class="card text-center  center">
                         <div class="img-container">
-                            <img src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNoZWZ8ZW58MHx8MHx8fDA%3D"
                                 class="img-fluid">
                         </div>
                         <div class="card-body center2">
@@ -680,12 +682,82 @@
         </div>
     </section>
 
+    <section class="reserve py-5" id="reserve">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 mx-4" data-aos="fade-right" data-aos-duration="1500">
+
+                    <h1 class="display-5">RESERVATION</h1>
+                    <h1 style="font-size: 50px;">Reserve Your <br> Favourite Private Table</h1>
+                    <p class="text-dark fw-2" style="font-weight: 600;">A relaxing and pleasant atmosphere,good
+                        jazz, dinner and cocktails. The Patio Time bar Opens in the center of florence. The only bar
+                        inspured by the 1960s,it will give you a experience that you'll have a hard time forgetting.</p>
+
+                    <div class="side d-flex my-3">
+                        <div class="first-text px-3 mx-2" style="border-right: 1px solid black; height: 100%;">
+                            <h5 class="fs-4">Lunch Menu</h5>
+                            <p style="font-weight:600;">30+ items</p>
+                        </div>
+                        <div class="second-text px-3">
+                            <h5 class="fs-4">Dinner Menu</h5>
+                            <p style="font-weight: 600;">50+ items</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5" data-aos="fade-up" data-aos-duration="1300">
+
+                    <form action="reserve.com" class=" form shadow py-5">
+                        <div class="col-8 mb-3">
+                            <label class="text-light" for="phone">Phone</label>
+                            <input type="text" placeholder="+2348033784107" class="form-control" id="phone">
+                        </div>
+
+
+                        <div class="col-8 mb-3">
+                            <label class="text-light" for="inputSelect">Person</label>
+                            <select class="form-select" id="inputSelect">
+                                <option selected>1 Person</option>
+                                <option value="1">2 People</option>
+                                <option value="2">3 People</option>
+                                <option value="3">4 People</option>
+                            </select>
+                        </div>
+
+                        <div class="col-8 mb-3">
+                            <label class="text-light" for="date">Date</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+
+                        <div class="col-8 mb-3">
+                            <label class="text-light" for="inputTime">Time</label>
+                            <select class="form-select" id="inputTime">
+                                <option selected>Day Time</option>
+                                <option value="1">Afternoon</option>
+                                <option value="2">evening</option>
+                                <option value="3">Valentine's Day</option>
+                                <option value="3">Christmas</option>
+                            </select>
+                        </div>
+                     <button class="btn btn2 btn-danger">Book A Table</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
