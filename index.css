@@ -5,6 +5,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {}
+
 nav {
     padding: 10px;
 }
@@ -17,6 +19,7 @@ nav {
     padding: 1px;
     background-color: #F58d17;
     margin: 2px;
+    font-size: none;
     border-radius: 50px;
 }
 
@@ -64,7 +67,7 @@ nav .nav-link.style:active {
 }
 
 .carousel-inner {
-   width: 100vw;
+    width: 100vw;
 }
 
 .carousel-inner img {
@@ -151,8 +154,8 @@ header {
 }
 
 .card-body h5:hover {
-   color: #F58d17;
-   transition: all .2s;
+    color: #F58d17;
+    transition: all .2s;
 }
 
 .card-body h5 {
@@ -203,19 +206,21 @@ header {
     color: rgb(129, 128, 128);
 }
 
+.reserve {
+    border-top: 1px solid black;
+}
+
 .form {
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.516), aliceblue);
     border-radius: 15px;
     text-align: left;
     display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.205);
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.reserve {
-    background: linear-gradient(white, #f58d1780, white);
-}
 
 .form input {
     padding: 12px;
@@ -240,8 +245,66 @@ header {
     color: #fff;
 }
 
+.sec1 {
+    height: 400px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.sec1 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.blog-text {
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-weight: 600px;
+    bottom: 70px;
+    width: 80%;
+}
+
+.blog-text h4 {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blog-text p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.date {
+    position: absolute;
+    top: -35px;
+    border-radius: 10px;
+    right: 12px;
+    text-align: center;
+
+}
+
+.date h5 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.spac {
+    color: red;
+    font-size: 50px;
+}
+
+
+
+
 @media screen and (max-width:400px) {
-    
+
     header {
         height: 100vh;
     }
@@ -297,5 +360,33 @@ header {
 
     .team h1 {
         font-size: 40px;
+    }
+
+
+    .sec1 {
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec .blog-text {
+        height: auto;
+    }
+
+    .blog-text h4 {
+        font-size: 20px;
+    }
+
+    .date h5{
+        font-size: 20px;
+    }
+
+    .date {
+        right: -5px;
     }
 }
